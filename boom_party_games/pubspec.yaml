@@ -1,0 +1,38 @@
+name: boom_party_games
+description: "BOOM! Party Games - El juego de fiesta más divertido"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  applovin_max: ^4.0.0
+  audioplayers: ^6.4.0
+  vibration: ^2.0.0
+  shared_preferences: ^2.5.0
+  google_fonts: ^6.2.1
+  animated_text_kit: ^4.2.3
+  confetti: ^0.8.0
+  flutter_animate: ^4.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#E94560"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+    - assets/imagenes/

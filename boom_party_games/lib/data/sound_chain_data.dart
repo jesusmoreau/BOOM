@@ -1,0 +1,17 @@
+const List<Map<String, String>> animalSounds = [
+  {"animal": "Perro", "emoji": "\u{1F436}", "sound": "GUAU"},
+  {"animal": "Gato", "emoji": "\u{1F431}", "sound": "MIAU"},
+  {"animal": "Vaca", "emoji": "\u{1F404}", "sound": "MUUU"},
+  {"animal": "Gallo", "emoji": "\u{1F413}", "sound": "KIKIRIKI"},
+  {"animal": "Oveja", "emoji": "\u{1F411}", "sound": "BEEE"},
+  {"animal": "Cerdo", "emoji": "\u{1F437}", "sound": "OINK"},
+  {"animal": "Pato", "emoji": "\u{1F986}", "sound": "CUAC"},
+  {"animal": "Leon", "emoji": "\u{1F981}", "sound": "ROAR"},
+  {"animal": "Burro", "emoji": "\u{1FACF}", "sound": "IHAA"},
+  {"animal": "Mono", "emoji": "\u{1F435}", "sound": "UH UH AH AH"},
+  {"animal": "Serpiente", "emoji": "\u{1F40D}", "sound": "SSSS"},
+  {"animal": "Buho", "emoji": "\u{1F989}", "sound": "UHUU"},
+  {"animal": "Rana", "emoji": "\u{1F438}", "sound": "CROAC"},
+  {"animal": "Abeja", "emoji": "\u{1F41D}", "sound": "BZZZ"},
+  {"animal": "Elefante", "emoji": "\u{1F418}", "sound": "PRRR"},
+];
