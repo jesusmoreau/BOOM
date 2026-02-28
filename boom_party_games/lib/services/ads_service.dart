@@ -14,7 +14,7 @@ class AdsService {
   static const int _maxRetryCount = 6;
 
   Future<void> init() async {
-    if (_isInitialized) return;
+    if (_isInitialized || !AdsConfig.adsEnabled) return;
     try {
       final configuration = await AppLovinMAX.initialize(AdsConfig.sdkKey);
       if (configuration != null) {
